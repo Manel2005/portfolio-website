@@ -3,38 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home | My Portfolio </title>
+    <title>Home | My Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-    <h1>Welcome to My Portfolio</h1>
+    <h1>Manel Abizanda Gilibets</h1>
     <nav>
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="projects.html">Project</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">About Me</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
 
-<main>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Manel Abizanda, an ICT Systems Engineer Student. This portfolio will showcase my projects and skills.</p>
-    </section>
+    <main>
+        <section class="hero">
+            <h2>Welcome to my Portfolio</h2>
+            <p>
+                I am a 3rd Year Students at the Manresa School of Engineering, UPC, studying a Bachelor's in ITC Systems Engineering. I also have experience teaching programming and developing different academic and personal projects.
+            </p>
+            <a href="projects.html" class="btn">View My Projects</a>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Coming soon...</p>
-    </section>
-</main>
+        <section class="highlights">
+            <h3>Recent Projects</h3>
+            <div class="projects-preview">
+                <article>
+                    <h4>Traffic Light System</h4>
+                    <p>ESP32 project with an Android app in Kotlin.</p>
+                    <a href="project-detail.html">Read more</a>
+                </article>
+                <article>
+                    <h4>License Plate Reader</h4>
+                    <p>Group project focused on computer vision and automation developed in University.</p>
+                    <a href="project-detail.html">Read more</a>
+                </article>
+                <article>
+                    <h4>iTICApp</h4>
+                    <p>A social networking app developed as a project in University.</p>
+                    <a href="project-detail.html">Read more</a>
+                </article>
+            </div>
+        </section>
+    </main>
 
-<footer>
-    <p>&copy <span id="currentYear"></span> Manel Abizanda</p>
-</footer>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Manel Abizanda</p>
+        <p><a href="LICENSE">MIT License</a></p>
+    </footer>
 
-<script src="js/app.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
