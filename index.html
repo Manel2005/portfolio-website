@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | My Portfolio</title>
+    <title>Manel Abizanda - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,35 +23,22 @@
         <section class="hero">
             <h2>Welcome to my Portfolio</h2>
             <p>
-                I am a 3rd Year Students at the Manresa School of Engineering, UPC, studying a Bachelor's in ITC Systems Engineering. I also have experience teaching programming and developing different academic and personal projects.
+                I'm a 3rd Year ITC System Engineering Student at UPC Manresa with experience in programming, electronics and teaching. Explore my projects and background below!
             </p>
             <a href="projects.html" class="btn">View My Projects</a>
         </section>
 
-        <section class="highlights">
-            <h3>Recent Projects</h3>
-            <div class="projects-preview">
-                <article>
-                    <h4>Traffic Light System</h4>
-                    <p>ESP32 project with an Android app in Kotlin.</p>
-                    <a href="project-detail.html">Read more</a>
-                </article>
-                <article>
-                    <h4>License Plate Reader</h4>
-                    <p>Group project focused on computer vision and automation developed in University.</p>
-                    <a href="project-detail.html">Read more</a>
-                </article>
-                <article>
-                    <h4>iTICApp</h4>
-                    <p>A social networking app developed as a project in University.</p>
-                    <a href="project-detail.html">Read more</a>
-                </article>
+        <section class="recent-projects">
+            <h2>Recent Projects</h2>
+            <!-- data-show controls how many projects appear -->
+            <div id="projects-container" class="projects-grid" data-show="3">
+                <!-- Projects injected by JavaScript -->
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="currentYear"></span> Manel Abizanda</p>
+        <p>&copy; <span id="currentYear"></span> Manel Abizanda Gilibets</p>
         <p><a href="LICENSE">MIT License</a></p>
     </footer>
 
